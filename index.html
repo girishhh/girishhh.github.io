@@ -11,6 +11,8 @@
     <style>
       html, body {
         height: 100%;
+        color: #424242;
+        font-size: 14px;
       }
 
       #login-page {
@@ -31,11 +33,47 @@
         padding: 15px 15px 30px;
         text-align: center;
       }
+
+      .entry-item {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      label {
+        display: inline-block;
+        margin-bottom: 0.5rem;
+      }
+
+      input {
+        border: 1px solid #ced4da;
+        border-radius: 20px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 100%;
+        margin-bottom: 1rem!important;
+        /* border-top-left-radius: 0; */
+        /* border-bottom-left-radius: 0; */
+        padding: 0.55rem;
+      }
+
+      button {
+        width: 100%;
+        background-color: #d81e05;
+        color: #fff!important;
+        border: 0;
+        border-radius: 20px;
+        margin-top: 10px;
+        text-decoration: none;
+        padding: 0.95rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
     </style>
 
     <script>
       $(document).ready(function () {
-        alert();
       });
     </script>
   </head>
