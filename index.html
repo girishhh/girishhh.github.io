@@ -42,11 +42,21 @@
         height: 377px;
       }
 
+      @media (max-width: 425px) {
+        #api {
+          width: 280px !important;
+        }
+
+        #api::before {
+          margin-left: 66px !important;
+        }
+      }
+
       #api::before {
         background-image: url(https://girishhh.github.io/logo.png);
         background-size: 151px;
         display: inline-block;
-        width: 100%;
+        width: 150px;
         height: 50px;
         content: "";
         background-repeat: no-repeat;
