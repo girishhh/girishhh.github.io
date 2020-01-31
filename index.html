@@ -136,9 +136,12 @@
         color: red;
       }
     </style>
-    <script>
-      let username = document.getElementById('logonIdentifier');
-      username.setAttribute('placeholder','User Name');
+    <script language="javascript">
+      window.document.onload = function(e){
+        console.log("LOGIN-PAGE DOC LOADED");
+        let username = document.getElementById('logonIdentifier');
+        username.setAttribute('placeholder','User Name');
+      }
     </script>
   </head>
 
